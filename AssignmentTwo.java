@@ -357,11 +357,11 @@ public class AssignmentTwo {
         Ride rollerCoaster = new Ride("Roller Coaster", 5, new Employee("John", 30, "1234567890", "E001", "Operator"), 3);
 
         // Create Visitors
-        Visitor v1 = new Visitor("Alice", 25, "123456789", "T001", "2024-12-13");
-        Visitor v2 = new Visitor("Bob", 28, "987654321", "T002", "2024-12-14");
-        Visitor v3 = new Visitor("Charlie", 22, "654321789", "T003", "2024-12-15");
-        Visitor v4 = new Visitor("Diana", 30, "321987654", "T004", "2024-12-16");
-        Visitor v5 = new Visitor("Eve", 27, "456789123", "T005", "2024-12-17");
+        Visitor v1 = new Visitor("Alice", 24, "123456789", "T001", "2024-12-13");
+        Visitor v2 = new Visitor("Bob", 27, "987654321", "T002", "2024-12-14");
+        Visitor v3 = new Visitor("Charlie", 21, "654321789", "T003", "2024-12-15");
+        Visitor v4 = new Visitor("Diana", 27, "321987654", "T004", "2024-12-16");
+        Visitor v5 = new Visitor("Eve", 26, "456789123", "T005", "2024-12-17");
 
         // Add Visitors to History
         rollerCoaster.addVisitorToHistory(v1);
@@ -387,16 +387,16 @@ public class AssignmentTwo {
         Ride ferrisWheel = new Ride("Ferris Wheel", 10, new Employee("Jane", 35, "987654321", "E002", "Operator"), 4);
 
         // Create Visitors
-        Visitor v1 = new Visitor("Alice", 25, "123456789", "T001", "2024-12-13");
-        Visitor v2 = new Visitor("Bob", 28, "987654321", "T002", "2024-12-14");
-        Visitor v3 = new Visitor("Charlie", 22, "654321789", "T003", "2024-12-15");
-        Visitor v4 = new Visitor("Diana", 30, "321987654", "T004", "2024-12-16");
-        Visitor v5 = new Visitor("Eve", 27, "456789123", "T005", "2024-12-17");
-        Visitor v6 = new Visitor("Frank", 24, "789123456", "T006", "2024-12-18");
-        Visitor v7 = new Visitor("Grace", 29, "123987456", "T007", "2024-12-19");
-        Visitor v8 = new Visitor("Henry", 26, "987321654", "T008", "2024-12-20");
-        Visitor v9 = new Visitor("Isabella", 23, "654987321", "T009", "2024-12-21");
-        Visitor v10 = new Visitor("Jack", 31, "321654987", "T010", "2024-12-22");
+        Visitor v1 = new Visitor("Alice", 24, "123456789", "T001", "2024-12-13");
+        Visitor v2 = new Visitor("Bob", 27, "987654321", "T002", "2024-12-14");
+        Visitor v3 = new Visitor("Charlie", 21, "654321789", "T003", "2024-12-15");
+        Visitor v4 = new Visitor("Diana", 27, "321987654", "T004", "2024-12-16");
+        Visitor v5 = new Visitor("Eve", 26, "456789123", "T005", "2024-12-17");
+        Visitor v6 = new Visitor("Frank", 23, "789123456", "T006", "2024-12-18");
+        Visitor v7 = new Visitor("Grace", 28, "123987456", "T007", "2024-12-19");
+        Visitor v8 = new Visitor("Henry", 25, "987321654", "T008", "2024-12-20");
+        Visitor v9 = new Visitor("Isabella", 22, "654987321", "T009", "2024-12-21");
+        Visitor v10 = new Visitor("Tim", 30, "321654987", "T010", "2024-12-22");
 
         // Add Visitors to Queue
         ferrisWheel.addVisitorToQueue(v1);
@@ -431,11 +431,11 @@ public class AssignmentTwo {
         Ride rollerCoaster = new Ride("Roller Coaster", 5, new Employee("John", 30, "1234567890", "E001", "Operator"), 3);
 
         // Create Visitors
-        Visitor v1 = new Visitor("Alice", 25, "123456789", "T001", "2024-12-13");
-        Visitor v2 = new Visitor("Bob", 28, "987654321", "T002", "2024-12-14");
-        Visitor v3 = new Visitor("Charlie", 22, "654321789", "T003", "2024-12-15");
-        Visitor v4 = new Visitor("Diana", 30, "321987654", "T004", "2024-12-16");
-        Visitor v5 = new Visitor("Eve", 27, "456789123", "T005", "2024-12-17");
+        Visitor v1 = new Visitor("Alice", 24, "123456789", "T001", "2024-12-13");
+        Visitor v2 = new Visitor("Bob", 27, "987654321", "T002", "2024-12-14");
+        Visitor v3 = new Visitor("Charlie", 21, "654321789", "T003", "2024-12-15");
+        Visitor v4 = new Visitor("Diana", 27, "321987654", "T004", "2024-12-16");
+        Visitor v5 = new Visitor("Eve", 26, "456789123", "T005", "2024-12-17");
 
         // Add Visitors to History
         rollerCoaster.addVisitorToHistory(v1);
